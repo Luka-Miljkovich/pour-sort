@@ -19,7 +19,8 @@ void app.start();
 // handy for debugging in Safari Web Inspector
 (window as any).__pour = app;
 
-if ('serviceWorker' in navigator && import.meta.env.PROD) {
+// The single-file build (npm run build:single) runs on hosts without service workers.
+if ('serviceWorker' in navigator && import.meta.env.PROD && import.meta.env.MODE !== 'single') {
   window.addEventListener('load', () => {
     navigator.serviceWorker.register('./sw.js').catch((err) => console.warn('SW registration failed', err));
   });
