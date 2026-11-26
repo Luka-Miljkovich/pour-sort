@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <radialGradient id="bg" cx="50%" cy="10%" r="95%"><stop offset="0" stop-color="#26315a"/><stop offset=".6" stop-color="#111628"/><stop offset="1" stop-color="#07090f"/></radialGradient>
+    <linearGradient id="hl" x1="0" x2="1"><stop offset="0" stop-color="#fff" stop-opacity=".32"/><stop offset=".4" stop-color="#fff" stop-opacity="0"/><stop offset="1" stop-color="#000" stop-opacity=".15"/></linearGradient>
+  </defs>
+  <rect width="512" height="512" fill="url(#bg)"/>
+  <g transform="translate(256 256) scale(1) translate(-256 -256)">
+    <g transform="rotate(0 155 400)">
+    <clipPath id="c118"><rect x="118" y="150" width="74" height="250" rx="37"/><rect x="118" y="150" width="74" height="60"/></clipPath>
+    <g clip-path="url(#c118)"><rect x="118" y="334" width="74" height="53" fill="#2f6bff"/><rect x="118" y="282" width="74" height="53" fill="#ef4444"/><rect x="118" y="230" width="74" height="53" fill="#fde047"/>
+      <rect x="118" y="150" width="74" height="250" fill="url(#hl)"/></g>
+    <path d="M118 150 V363 a37 37 0 0 0 74 0 V150" fill="none" stroke="rgba(225,232,255,.75)" stroke-width="7"/>
+    <rect x="110" y="140" width="90" height="14" rx="7" fill="#dfe6ff"/>
+  </g>
+    <g transform="rotate(0 256 400)">
+    <clipPath id="c219"><rect x="219" y="150" width="74" height="250" rx="37"/><rect x="219" y="150" width="74" height="60"/></clipPath>
+    <g clip-path="url(#c219)"><rect x="219" y="334" width="74" height="53" fill="#16a34a"/><rect x="219" y="282" width="74" height="53" fill="#16a34a"/><rect x="219" y="230" width="74" height="53" fill="#16a34a"/><rect x="219" y="178" width="74" height="53" fill="#16a34a"/>
+      <rect x="219" y="150" width="74" height="250" fill="url(#hl)"/></g>
+    <path d="M219 150 V363 a37 37 0 0 0 74 0 V150" fill="none" stroke="rgba(225,232,255,.75)" stroke-width="7"/>
+    <rect x="211" y="140" width="90" height="14" rx="7" fill="#dfe6ff"/>
+  </g>
+    <g transform="rotate(0 357 400)">
+    <clipPath id="c320"><rect x="320" y="150" width="74" height="250" rx="37"/><rect x="320" y="150" width="74" height="60"/></clipPath>
+    <g clip-path="url(#c320)"><rect x="320" y="334" width="74" height="53" fill="#f472b6"/><rect x="320" y="282" width="74" height="53" fill="#fb8c1e"/><rect x="320" y="230" width="74" height="53" fill="#9d4edd"/>
+      <rect x="320" y="150" width="74" height="250" fill="url(#hl)"/></g>
+    <path d="M320 150 V363 a37 37 0 0 0 74 0 V150" fill="none" stroke="rgba(225,232,255,.75)" stroke-width="7"/>
+    <rect x="312" y="140" width="90" height="14" rx="7" fill="#dfe6ff"/>
+  </g>
+  </g>
+</svg>
